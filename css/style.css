@@ -1,0 +1,102 @@
+body{
+    color: #FFF;
+    font-family: "PT Sans", sans-serif;
+    font-size: 15px;
+    background: #345566;
+}
+
+.wrapper{
+    /*max-width: 950px;*/
+    background: #345566;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.logoDiv{
+    font-family: "Alegreya", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.logoDiv a{
+    color: #FFF;
+}
+.siteDescription{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer, .siteDescription, .logoDiv{
+    text-align: center;
+}
+
+.center-pills { display: inline-block; }
+
+.navbar-default {
+    background-color: #345566;
+    border: none;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.navbar-default .nav > li {
+    width: 120px;
+}
+
+.navbar-default .nav > li > a {
+    background: #41697f;
+    color: #FFF;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.navbar-default .nav > li.active > a{
+    background: #FFF;
+    color: #000;
+}
+
+.navbar-default .nav > li > a:hover {
+    background: #457087;
+}
+
+.mainContent, .sidebar{
+    padding: 5px 10px;
+}
+
+.mainContent{
+    background: #FFF;
+    color: #333;
+    border-radius: 5px;
+    margin: 5px 10px 5px 0px;
+    padding: 10px 20px 20px;
+}
+
+h1.storyHeading{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Alegreya", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.sidebar .nav-pills > li > a{
+    border-radius: 5px;
+    background: #457087;
+    color: #FFF;
+    font-size: 11px;
+}
+
+.sidebar .nav-pills > li.active > a{
+    background: #FFF;
+    color: #000;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #E7E7E7;
+}
+
+.footer{
+    border-top: 1px solid #457087;
+    margin: 20px 10px 0px;
+    padding: 10px;
+}
